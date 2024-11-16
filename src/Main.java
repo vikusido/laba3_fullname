@@ -30,7 +30,7 @@ public class Main {
         }
         String genderOut = (gender == 'Ж') ? "Женский" : (gender == 'М') ? "Мужской" : "Определить не удалось";
 
-        //age
+        //count age
         if (dateParts.length != 3) {
             System.out.println("Некорректный формат даты");
             return;
